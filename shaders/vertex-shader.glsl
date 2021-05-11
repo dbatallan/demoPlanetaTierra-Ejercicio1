@@ -43,7 +43,7 @@
             
             position.x = uv.x-0.5;
             position.z = uv.y-0.5;
-            position.y = 0.0;
+            position.y = 10.0;
             // ************************************************************************
 
             vec4 worldPos = uMMatrix*vec4(position, 1.0);                        
